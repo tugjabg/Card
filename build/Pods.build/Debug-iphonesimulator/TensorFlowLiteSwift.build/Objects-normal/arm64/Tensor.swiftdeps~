@@ -1,0 +1,379 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Tensor"
+provides-nominal:
+- "14TensorFlowLite0A0V"
+- "14TensorFlowLite0A0V8DataTypeO"
+- "14TensorFlowLite0A0V5ShapeV"
+provides-member:
+- ["14TensorFlowLite0A0V", ""]
+- ["14TensorFlowLite0A0V8DataTypeO", ""]
+- ["14TensorFlowLite0A0V5ShapeV", ""]
+- ["14TensorFlowLite0A0V", "DataType"]
+- ["14TensorFlowLite0A0V", "Shape"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Data"
+- "DataType"
+- "Equatable"
+- "ExpressibleByArrayLiteral"
+- !private "FloatLiteralType"
+- "Hashable"
+- "Int"
+- "Int32"
+- !private "IntegerLiteralType"
+- "QuantizationParameters"
+- "Shape"
+- "String"
+- "Tensor"
+- "TfLiteType"
+- !private "dimensions"
+- !private "kTfLiteBool"
+- !private "kTfLiteFloat16"
+- !private "kTfLiteFloat32"
+- !private "kTfLiteFloat64"
+- !private "kTfLiteInt16"
+- !private "kTfLiteInt32"
+- !private "kTfLiteInt64"
+- !private "kTfLiteNoType"
+- !private "kTfLiteUInt8"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "count"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "map"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "map"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- ["14TensorFlowLite0A0V8DataTypeO", "=="]
+- ["14TensorFlowLite0A0V8DataTypeO", "TfLiteType"]
+- ["14TensorFlowLite0A0V8DataTypeO", ""]
+- ["14TensorFlowLite0A0V8DataTypeO", "__derived_enum_equals"]
+- ["14TensorFlowLite0A0V8DataTypeO", "_rawHashValue"]
+- ["14TensorFlowLite0A0V8DataTypeO", "bool"]
+- ["14TensorFlowLite0A0V8DataTypeO", "float16"]
+- ["14TensorFlowLite0A0V8DataTypeO", "float32"]
+- ["14TensorFlowLite0A0V8DataTypeO", "float64"]
+- ["14TensorFlowLite0A0V8DataTypeO", "hash"]
+- ["14TensorFlowLite0A0V8DataTypeO", "hashValue"]
+- ["14TensorFlowLite0A0V8DataTypeO", "init"]
+- ["14TensorFlowLite0A0V8DataTypeO", "int16"]
+- ["14TensorFlowLite0A0V8DataTypeO", "int32"]
+- ["14TensorFlowLite0A0V8DataTypeO", "int64"]
+- !private ["14TensorFlowLite0A0V8DataTypeO", "kTfLiteBool"]
+- !private ["14TensorFlowLite0A0V8DataTypeO", "kTfLiteFloat16"]
+- !private ["14TensorFlowLite0A0V8DataTypeO", "kTfLiteFloat32"]
+- !private ["14TensorFlowLite0A0V8DataTypeO", "kTfLiteFloat64"]
+- !private ["14TensorFlowLite0A0V8DataTypeO", "kTfLiteInt16"]
+- !private ["14TensorFlowLite0A0V8DataTypeO", "kTfLiteInt32"]
+- !private ["14TensorFlowLite0A0V8DataTypeO", "kTfLiteInt64"]
+- !private ["14TensorFlowLite0A0V8DataTypeO", "kTfLiteNoType"]
+- !private ["14TensorFlowLite0A0V8DataTypeO", "kTfLiteUInt8"]
+- ["14TensorFlowLite0A0V8DataTypeO", "uInt8"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- ["SQ", "=="]
+- ["SQ", "ArrayLiteralElement"]
+- ["SQ", "Default_ArrayLiteralElement"]
+- ["SQ", "Equatable"]
+- ["SQ", "Hashable"]
+- !private ["SQ", "Int32"]
+- ["SQ", ""]
+- ["SQ", "_Default_ArrayLiteralElement"]
+- !private ["SQ", "__derived_struct_equals"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "bool"]
+- !private ["SQ", "count"]
+- !private ["SQ", "data"]
+- !private ["SQ", "dataType"]
+- !private ["SQ", "dimensions"]
+- !private ["SQ", "float16"]
+- !private ["SQ", "float32"]
+- !private ["SQ", "float64"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "int16"]
+- !private ["SQ", "int32"]
+- !private ["SQ", "int64"]
+- !private ["SQ", "kTfLiteBool"]
+- !private ["SQ", "kTfLiteFloat16"]
+- !private ["SQ", "kTfLiteFloat32"]
+- !private ["SQ", "kTfLiteFloat64"]
+- !private ["SQ", "kTfLiteInt16"]
+- !private ["SQ", "kTfLiteInt32"]
+- !private ["SQ", "kTfLiteInt64"]
+- !private ["SQ", "kTfLiteNoType"]
+- !private ["SQ", "kTfLiteUInt8"]
+- !private ["SQ", "map"]
+- !private ["SQ", "name"]
+- !private ["SQ", "quantizationParameters"]
+- !private ["SQ", "rank"]
+- !private ["SQ", "shape"]
+- !private ["SQ", "uInt8"]
+- ["s25ExpressibleByArrayLiteralP", "=="]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Default_ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "Int32"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "_rawHashValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "dimensions"]
+- ["s25ExpressibleByArrayLiteralP", "hash"]
+- ["s25ExpressibleByArrayLiteralP", "hashValue"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "rank"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- ["SH", "ArrayLiteralElement"]
+- ["SH", "Default_ArrayLiteralElement"]
+- ["SH", "Equatable"]
+- ["SH", "Hashable"]
+- !private ["SH", "Int32"]
+- ["SH", ""]
+- ["SH", "_Default_ArrayLiteralElement"]
+- !private ["SH", "__derived_struct_equals"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "bool"]
+- !private ["SH", "count"]
+- !private ["SH", "data"]
+- !private ["SH", "dataType"]
+- !private ["SH", "dimensions"]
+- !private ["SH", "float16"]
+- !private ["SH", "float32"]
+- !private ["SH", "float64"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "int16"]
+- !private ["SH", "int32"]
+- !private ["SH", "int64"]
+- !private ["SH", "kTfLiteBool"]
+- !private ["SH", "kTfLiteFloat16"]
+- !private ["SH", "kTfLiteFloat32"]
+- !private ["SH", "kTfLiteFloat64"]
+- !private ["SH", "kTfLiteInt16"]
+- !private ["SH", "kTfLiteInt32"]
+- !private ["SH", "kTfLiteInt64"]
+- !private ["SH", "kTfLiteNoType"]
+- !private ["SH", "kTfLiteUInt8"]
+- !private ["SH", "map"]
+- !private ["SH", "name"]
+- !private ["SH", "quantizationParameters"]
+- !private ["SH", "rank"]
+- !private ["SH", "shape"]
+- !private ["SH", "uInt8"]
+- !private ["s6HasherV", "combine"]
+- !private ["s5Int32V", "init"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- ["14TensorFlowLite22QuantizationParametersV", ""]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "map"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "count"]
+- !private ["ST", "map"]
+- ["14TensorFlowLite0A0V5ShapeV", "=="]
+- ["14TensorFlowLite0A0V5ShapeV", "ArrayLiteralElement"]
+- ["14TensorFlowLite0A0V5ShapeV", "Default_ArrayLiteralElement"]
+- ["14TensorFlowLite0A0V5ShapeV", "Int"]
+- ["14TensorFlowLite0A0V5ShapeV", "Int32"]
+- ["14TensorFlowLite0A0V5ShapeV", ""]
+- ["14TensorFlowLite0A0V5ShapeV", "_Default_ArrayLiteralElement"]
+- ["14TensorFlowLite0A0V5ShapeV", "__derived_struct_equals"]
+- ["14TensorFlowLite0A0V5ShapeV", "_rawHashValue"]
+- ["14TensorFlowLite0A0V5ShapeV", "dimensions"]
+- ["14TensorFlowLite0A0V5ShapeV", "hash"]
+- ["14TensorFlowLite0A0V5ShapeV", "hashValue"]
+- ["14TensorFlowLite0A0V5ShapeV", "init"]
+- ["14TensorFlowLite0A0V5ShapeV", "int32Dimensions"]
+- ["14TensorFlowLite0A0V5ShapeV", "rank"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- ["14TensorFlowLite0A0V", "=="]
+- ["14TensorFlowLite0A0V", "Data"]
+- ["14TensorFlowLite0A0V", "DataType"]
+- ["14TensorFlowLite0A0V", "Equatable"]
+- ["14TensorFlowLite0A0V", "Hashable"]
+- ["14TensorFlowLite0A0V", "Int"]
+- ["14TensorFlowLite0A0V", "Int32"]
+- ["14TensorFlowLite0A0V", "QuantizationParameters"]
+- ["14TensorFlowLite0A0V", "Shape"]
+- ["14TensorFlowLite0A0V", "String"]
+- ["14TensorFlowLite0A0V", "TfLiteType"]
+- ["14TensorFlowLite0A0V", ""]
+- ["14TensorFlowLite0A0V", "__derived_struct_equals"]
+- ["14TensorFlowLite0A0V", "_rawHashValue"]
+- ["14TensorFlowLite0A0V", "data"]
+- ["14TensorFlowLite0A0V", "dataType"]
+- !private ["14TensorFlowLite0A0V", "dimensions"]
+- ["14TensorFlowLite0A0V", "hash"]
+- ["14TensorFlowLite0A0V", "hashValue"]
+- ["14TensorFlowLite0A0V", "init"]
+- !private ["14TensorFlowLite0A0V", "kTfLiteBool"]
+- !private ["14TensorFlowLite0A0V", "kTfLiteFloat16"]
+- !private ["14TensorFlowLite0A0V", "kTfLiteFloat32"]
+- !private ["14TensorFlowLite0A0V", "kTfLiteFloat64"]
+- !private ["14TensorFlowLite0A0V", "kTfLiteInt16"]
+- !private ["14TensorFlowLite0A0V", "kTfLiteInt32"]
+- !private ["14TensorFlowLite0A0V", "kTfLiteInt64"]
+- !private ["14TensorFlowLite0A0V", "kTfLiteNoType"]
+- !private ["14TensorFlowLite0A0V", "kTfLiteUInt8"]
+- ["14TensorFlowLite0A0V", "name"]
+- ["14TensorFlowLite0A0V", "quantizationParameters"]
+- ["14TensorFlowLite0A0V", "shape"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "14TensorFlowLite0A0V8DataTypeO"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- !private "s5Int32V"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- !private "Sj"
+- "14TensorFlowLite22QuantizationParametersV"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- "14TensorFlowLite0A0V5ShapeV"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "14TensorFlowLite0A0V"
+- "So18UIFocusEnvironmentP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/TensorFlowLiteC.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-umbrella.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/xnnpack_delegate.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/c_api.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/common.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/build/Pods.build/Debug-iphonesimulator/TensorFlowLiteSwift.build/unextended-module.modulemap"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7df49f2d37f4e22fc7be21da66cf552e"

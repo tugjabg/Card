@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "d667218d4cb25b6276b82888fb8bdfd0"
+build_time: [1620358934, 458381000]
+inputs:
+  "/Users/nguyenxuannam/Documents/image_classification/ios/ImageClassification/ViewControllers/ViewController.swift": [1620187265, 362097865]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/ImageClassification/Views/CurvedView.swift": [1620187328, 925670997]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/ImageClassification/Camera Feed/PreviewView.swift": [1620187090, 462764105]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/ImageClassification/Camera Feed/CameraFeedManager.swift": [1620187083, 50731719]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/ImageClassification/Extensions/CVPixelBufferExtension.swift": [1620187340, 762039257]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/ImageClassification/Cells/InfoCell.swift": [1620186812, 235139152]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/ImageClassification/ModelDataHandler/ModelDataHandler.swift": [1620187313, 536710796]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/ImageClassification/ViewControllers/InferenceViewController.swift": [1620187122, 750554763]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/ImageClassification/AppDelegate.swift": [1620196546, 50309242]

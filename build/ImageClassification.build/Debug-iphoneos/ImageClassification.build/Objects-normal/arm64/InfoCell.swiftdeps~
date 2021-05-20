@@ -1,0 +1,249 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InfoCell"
+provides-nominal:
+- "19ImageClassification8InfoCellC"
+provides-member:
+- ["19ImageClassification8InfoCellC", ""]
+provides-dynamic-lookup:
+- "fieldNameLabel"
+- "infoLabel"
+depends-top-level:
+- "InfoCell"
+- "UILabel"
+- "UITableViewCell"
+depends-member:
+- ["SK", ""]
+- ["So15CALayerDelegateP", "UILabel"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "fieldNameLabel"]
+- ["So15CALayerDelegateP", "infoLabel"]
+- ["So15CALayerDelegateP", "init"]
+- ["s7CVarArgP", ""]
+- ["Sl", ""]
+- ["SL", ""]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", ""]
+- ["SQ", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["SH", ""]
+- ["19ImageClassification8InfoCellC", "UILabel"]
+- ["19ImageClassification8InfoCellC", ""]
+- ["19ImageClassification8InfoCellC", "deinit"]
+- ["19ImageClassification8InfoCellC", "fieldNameLabel"]
+- ["19ImageClassification8InfoCellC", "infoLabel"]
+- ["19ImageClassification8InfoCellC", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", "UILabel"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "fieldNameLabel"]
+- ["So8NSCodingP", "infoLabel"]
+- ["So8NSCodingP", "init"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "fieldNameLabel"]
+- ["So8NSObjectC", "infoLabel"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectP", "UILabel"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "fieldNameLabel"]
+- ["So8NSObjectP", "infoLabel"]
+- ["So8NSObjectP", "init"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- ["So29UIAccessibilityIdentificationP", "UILabel"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "fieldNameLabel"]
+- ["So29UIAccessibilityIdentificationP", "infoLabel"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So12UIAppearanceP", "UILabel"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "fieldNameLabel"]
+- ["So12UIAppearanceP", "infoLabel"]
+- ["So12UIAppearanceP", "init"]
+- ["So21UIAppearanceContainerP", "UILabel"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "fieldNameLabel"]
+- ["So21UIAppearanceContainerP", "infoLabel"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So17UICoordinateSpaceP", "UILabel"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "fieldNameLabel"]
+- ["So17UICoordinateSpaceP", "infoLabel"]
+- ["So17UICoordinateSpaceP", "init"]
+- ["So13UIDynamicItemP", "UILabel"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "fieldNameLabel"]
+- ["So13UIDynamicItemP", "infoLabel"]
+- ["So13UIDynamicItemP", "init"]
+- ["So18UIFocusEnvironmentP", "UILabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "fieldNameLabel"]
+- ["So18UIFocusEnvironmentP", "infoLabel"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So11UIFocusItemP", "UILabel"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "fieldNameLabel"]
+- ["So11UIFocusItemP", "infoLabel"]
+- ["So11UIFocusItemP", "init"]
+- ["So20UIFocusItemContainerP", "UILabel"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "fieldNameLabel"]
+- ["So20UIFocusItemContainerP", "infoLabel"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So27UIGestureRecognizerDelegateP", "UILabel"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- ["So27UIGestureRecognizerDelegateP", "fieldNameLabel"]
+- ["So27UIGestureRecognizerDelegateP", "infoLabel"]
+- ["So27UIGestureRecognizerDelegateP", "init"]
+- ["So24UILargeContentViewerItemP", "UILabel"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "fieldNameLabel"]
+- ["So24UILargeContentViewerItemP", "infoLabel"]
+- ["So24UILargeContentViewerItemP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "fieldNameLabel"]
+- ["So30UIPasteConfigurationSupportingP", "infoLabel"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "fieldNameLabel"]
+- ["So11UIResponderC", "infoLabel"]
+- ["So11UIResponderC", "init"]
+- ["So30UIResponderStandardEditActionsP", "UILabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "fieldNameLabel"]
+- ["So30UIResponderStandardEditActionsP", "infoLabel"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "fieldNameLabel"]
+- ["So15UITableViewCellC", "infoLabel"]
+- ["So15UITableViewCellC", "init"]
+- ["So18UITraitEnvironmentP", "UILabel"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "fieldNameLabel"]
+- ["So18UITraitEnvironmentP", "infoLabel"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "fieldNameLabel"]
+- ["So23UIUserActivityRestoringP", "infoLabel"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "fieldNameLabel"]
+- ["So6UIViewC", "infoLabel"]
+- ["So6UIViewC", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+depends-nominal:
+- "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "19ImageClassification8InfoCellC"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Accelerate.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/build/Debug-iphoneos/TensorFlowLiteSwift/TensorFlowLite.framework/Modules/TensorFlowLite.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/TensorFlowLiteC.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/build/Debug-iphoneos/TensorFlowLiteSwift/TensorFlowLite.framework/Headers/TensorFlowLiteSwift-umbrella.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/xnnpack_delegate.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/c_api.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/common.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/build/Debug-iphoneos/TensorFlowLiteSwift/TensorFlowLite.framework/Headers/TensorFlowLite-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Modules/module.modulemap"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/build/Debug-iphoneos/TensorFlowLiteSwift/TensorFlowLite.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "65305772975c9cf34717c2ea1dfec8a0"

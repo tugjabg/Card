@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/nguyenxuannam/Documents/image_classification/ios/build/Debug-iphoneos/SwiftySound/SwiftySound.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/nguyenxuannam/Documents/image_classification/ios/build/Pods.build/Debug-iphoneos/SwiftySound.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,109 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "QuantizationParameters"
+provides-nominal:
+- "14TensorFlowLite22QuantizationParametersV"
+provides-member:
+- ["14TensorFlowLite22QuantizationParametersV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Equatable"
+- "Float"
+- "Hashable"
+- "Int"
+- "QuantizationParameters"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["SL", ""]
+- ["SQ", "=="]
+- ["SQ", ""]
+- !private ["SQ", "__derived_struct_equals"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "scale"]
+- !private ["SQ", "zeroPoint"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- ["SH", "=="]
+- ["SH", ""]
+- !private ["SH", "__derived_struct_equals"]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "scale"]
+- !private ["SH", "zeroPoint"]
+- !private ["s6HasherV", "combine"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- !private ["Sj", ""]
+- ["14TensorFlowLite22QuantizationParametersV", "=="]
+- ["14TensorFlowLite22QuantizationParametersV", "Float"]
+- ["14TensorFlowLite22QuantizationParametersV", "Int"]
+- ["14TensorFlowLite22QuantizationParametersV", ""]
+- ["14TensorFlowLite22QuantizationParametersV", "__derived_struct_equals"]
+- ["14TensorFlowLite22QuantizationParametersV", "_rawHashValue"]
+- ["14TensorFlowLite22QuantizationParametersV", "hash"]
+- ["14TensorFlowLite22QuantizationParametersV", "hashValue"]
+- ["14TensorFlowLite22QuantizationParametersV", "init"]
+- ["14TensorFlowLite22QuantizationParametersV", "scale"]
+- ["14TensorFlowLite22QuantizationParametersV", "zeroPoint"]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", ""]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SL"
+- "SQ"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- !private "Sj"
+- "14TensorFlowLite22QuantizationParametersV"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "So18UIFocusEnvironmentP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/TensorFlowLiteC.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-umbrella.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/xnnpack_delegate.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/c_api.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/common.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/build/Pods.build/Debug-iphoneos/TensorFlowLiteSwift.build/unextended-module.modulemap"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f643326a9ddc90bed8fb858c64627aac"

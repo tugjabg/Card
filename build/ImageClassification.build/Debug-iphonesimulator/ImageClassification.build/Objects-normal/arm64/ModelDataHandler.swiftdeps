@@ -1,0 +1,970 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Result"
+- "Inference"
+- "FileInfo"
+- "MobileNet"
+- "ModelDataHandler"
+provides-nominal:
+- "19ImageClassification6ResultV"
+- "19ImageClassification9InferenceV"
+- "19ImageClassification9MobileNetO"
+- "19ImageClassification16ModelDataHandlerC"
+provides-member:
+- ["19ImageClassification6ResultV", ""]
+- ["19ImageClassification9InferenceV", ""]
+- ["19ImageClassification9MobileNetO", ""]
+- ["19ImageClassification16ModelDataHandlerC", ""]
+- ["10Foundation4DataV", ""]
+- ["Sa", ""]
+- ["10Foundation4DataV", "init"]
+- ["Sa", "init"]
+provides-dynamic-lookup:
+- "alphaComponent"
+- "batchSize"
+- "getTopN"
+- "inputChannels"
+- "inputHeight"
+- "inputWidth"
+- "interpreter"
+- "labels"
+- "loadLabels"
+- "resultCount"
+- "rgbDataFromBuffer"
+- "runModel"
+- "threadCount"
+- "threadCountLimit"
+depends-top-level:
+- !private "%"
+- "*"
+- !private "+"
+- "-"
+- !private "..<"
+- !private "/"
+- !private "=="
+- ">"
+- !private ">="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "Bundle"
+- !private "CGSize"
+- "CVPixelBuffer"
+- !private "CVPixelBufferGetBaseAddress"
+- !private "CVPixelBufferGetBytesPerRow"
+- !private "CVPixelBufferGetHeight"
+- !private "CVPixelBufferGetPixelFormatType"
+- !private "CVPixelBufferGetWidth"
+- !private "CVPixelBufferLockBaseAddress"
+- !private "CVPixelBufferUnlockBaseAddress"
+- "Data"
+- !private "Date"
+- "Double"
+- "Element"
+- "FileInfo"
+- "Float"
+- !private "Float32"
+- "FloatLiteralType"
+- "Inference"
+- "Int"
+- "IntegerLiteralType"
+- "Interpreter"
+- !private "InterpreterOptions"
+- !private "MemoryLayout"
+- "MobileNet"
+- "ModelDataHandler"
+- "Result"
+- "String"
+- "StringLiteralType"
+- "Tensor"
+- "TimeInterval"
+- !private "UInt32"
+- "UInt8"
+- !private "UnicodeScalarType"
+- !private "assert"
+- !private "batchSize"
+- !private "fatalError"
+- !private "free"
+- !private "getTopN"
+- !private "inputChannels"
+- !private "inputHeight"
+- !private "inputWidth"
+- !private "interpreter"
+- !private "kCVPixelFormatType_32ARGB"
+- !private "kCVPixelFormatType_32BGRA"
+- !private "kCVPixelFormatType_32RGBA"
+- !private "kvImageNoFlags"
+- "labels"
+- !private "loadLabels"
+- !private "malloc"
+- !private "print"
+- !private "resultCount"
+- !private "rgbDataFromBuffer"
+- !private "vImageConvert_ARGB8888toRGB888"
+- !private "vImageConvert_BGRA8888toRGB888"
+- !private "vImageConvert_RGBA8888toRGB888"
+- !private "vImagePixelCount"
+- !private "vImage_Buffer"
+- !private "zip"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["10Accelerate0A6BufferP", "Element"]
+- !private ["10Accelerate0A6BufferP", "MemoryLayout"]
+- !private ["10Accelerate0A6BufferP", ""]
+- !private ["10Accelerate0A6BufferP", "append"]
+- !private ["10Accelerate0A6BufferP", "count"]
+- !private ["10Accelerate0A6BufferP", "indices"]
+- !private ["10Accelerate0A6BufferP", "init"]
+- !private ["10Accelerate0A6BufferP", "map"]
+- !private ["10Accelerate0A6BufferP", "prefix"]
+- !private ["10Accelerate0A6BufferP", "subscript"]
+- !private ["10Accelerate0A6BufferP", "withUnsafeBufferPointer"]
+- !private ["10Accelerate0A13MutableBufferP", "Element"]
+- !private ["10Accelerate0A13MutableBufferP", "MemoryLayout"]
+- !private ["10Accelerate0A13MutableBufferP", "append"]
+- !private ["10Accelerate0A13MutableBufferP", "count"]
+- !private ["10Accelerate0A13MutableBufferP", "indices"]
+- !private ["10Accelerate0A13MutableBufferP", "init"]
+- !private ["10Accelerate0A13MutableBufferP", "map"]
+- !private ["10Accelerate0A13MutableBufferP", "prefix"]
+- !private ["10Accelerate0A13MutableBufferP", "subscript"]
+- !private ["10Accelerate0A13MutableBufferP", "withUnsafeBufferPointer"]
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["Sa", "Data"]
+- !private ["Sa", "Element"]
+- !private ["Sa", "MemoryLayout"]
+- ["Sa", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "indices"]
+- ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["Sa", "prefix"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "withUnsafeBufferPointer"]
+- !private ["s10ArraySliceV", "map"]
+- !private ["10Accelerate10BNNSScalarP", "init"]
+- !private ["SK", "Data"]
+- !private ["SK", "Element"]
+- !private ["SK", "MemoryLayout"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "bindMemory"]
+- !private ["SK", "components"]
+- !private ["SK", "count"]
+- !private ["SK", "indices"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "prefix"]
+- !private ["SK", "subscript"]
+- !private ["SK", "withUnsafeBufferPointer"]
+- !private ["SK", "withUnsafeBytes"]
+- !private ["SB", ""]
+- !private ["SB", "init"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "path"]
+- !private ["So8NSBundleC", "url"]
+- !private ["So6CGSizeV", "init"]
+- !private ["9CoreMedia26CMAttachmentBearerProtocolP", "centerThumbnail"]
+- !private ["So11CVBufferRefa", "centerThumbnail"]
+- !private ["So22CVPixelBufferLockFlagsV", "readOnly"]
+- !private ["s7CVarArgP", "Element"]
+- !private ["s7CVarArgP", "MemoryLayout"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "bindMemory"]
+- !private ["s7CVarArgP", "components"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "indices"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "prefix"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s7CVarArgP", "withUnsafeBufferPointer"]
+- !private ["10Foundation12CharacterSetV", "newlines"]
+- !private ["Sl", "Data"]
+- !private ["Sl", "Element"]
+- !private ["Sl", "MemoryLayout"]
+- !private ["Sl", ""]
+- !private ["Sl", "_copyToContiguousArray"]
+- !private ["Sl", "_customIndexOfEquatableElement"]
+- !private ["Sl", "_customLastIndexOfEquatableElement"]
+- !private ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "append"]
+- !private ["Sl", "bindMemory"]
+- !private ["Sl", "components"]
+- !private ["Sl", "count"]
+- !private ["Sl", "distance"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "formIndex"]
+- !private ["Sl", "index"]
+- !private ["Sl", "indices"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "makeIterator"]
+- !private ["Sl", "map"]
+- !private ["Sl", "prefix"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "underestimatedCount"]
+- !private ["Sl", "withUnsafeBufferPointer"]
+- !private ["Sl", "withUnsafeBytes"]
+- !private ["SL", ""]
+- !private ["SL", "bindMemory"]
+- !private ["SL", "components"]
+- !private ["SL", "init"]
+- !private ["SL", "timeIntervalSince"]
+- !private ["10Foundation15ContiguousBytesP", "Data"]
+- !private ["10Foundation15ContiguousBytesP", "Element"]
+- !private ["10Foundation15ContiguousBytesP", "MemoryLayout"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "bindMemory"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "indices"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "prefix"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "withUnsafeBufferPointer"]
+- !private ["10Foundation15ContiguousBytesP", "withUnsafeBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "Element"]
+- !private ["s28CustomDebugStringConvertibleP", "MemoryLayout"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "bindMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "indices"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "newlines"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "prefix"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBytes"]
+- !private ["s17CustomReflectableP", "Data"]
+- !private ["s17CustomReflectableP", "Element"]
+- !private ["s17CustomReflectableP", "MemoryLayout"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "bindMemory"]
+- !private ["s17CustomReflectableP", "components"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "indices"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "prefix"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "timeIntervalSince"]
+- !private ["s17CustomReflectableP", "withUnsafeBufferPointer"]
+- !private ["s17CustomReflectableP", "withUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "Element"]
+- !private ["s23CustomStringConvertibleP", "MemoryLayout"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "indices"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "newlines"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "prefix"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBytes"]
+- !private ["10Foundation4DataV", "Data"]
+- ["10Foundation4DataV", ""]
+- !private ["10Foundation4DataV", "count"]
+- ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "withUnsafeBytes"]
+- !private ["10Foundation12DataProtocolP", "Data"]
+- !private ["10Foundation12DataProtocolP", "Element"]
+- !private ["10Foundation12DataProtocolP", "MemoryLayout"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "bindMemory"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "indices"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "prefix"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "withUnsafeBufferPointer"]
+- !private ["10Foundation12DataProtocolP", "withUnsafeBytes"]
+- ["14TensorFlowLite0A0V8DataTypeO", "float32"]
+- ["14TensorFlowLite0A0V8DataTypeO", "uInt8"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince"]
+- !private ["Se", "Data"]
+- !private ["Se", "Element"]
+- !private ["Se", "MemoryLayout"]
+- !private ["Se", "append"]
+- !private ["Se", "components"]
+- !private ["Se", "count"]
+- !private ["Se", "indices"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "newlines"]
+- !private ["Se", "prefix"]
+- !private ["Se", "subscript"]
+- !private ["Se", "timeIntervalSince"]
+- !private ["Se", "withUnsafeBufferPointer"]
+- !private ["Se", "withUnsafeBytes"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "Data"]
+- !private ["SE", "Element"]
+- !private ["SE", "MemoryLayout"]
+- !private ["SE", "append"]
+- !private ["SE", "components"]
+- !private ["SE", "count"]
+- !private ["SE", "indices"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "newlines"]
+- !private ["SE", "prefix"]
+- !private ["SE", "subscript"]
+- !private ["SE", "timeIntervalSince"]
+- !private ["SE", "withUnsafeBufferPointer"]
+- !private ["SE", "withUnsafeBytes"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "=="]
+- !private ["SQ", "Data"]
+- !private ["SQ", "Element"]
+- !private ["SQ", "MemoryLayout"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "bindMemory"]
+- !private ["SQ", "centerThumbnail"]
+- !private ["SQ", "components"]
+- !private ["SQ", "count"]
+- !private ["SQ", "data"]
+- !private ["SQ", "dataType"]
+- ["SQ", "float32"]
+- !private ["SQ", "indices"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "map"]
+- !private ["SQ", "newlines"]
+- !private ["SQ", "path"]
+- !private ["SQ", "prefix"]
+- !private ["SQ", "quantizationParameters"]
+- !private ["SQ", "readOnly"]
+- !private ["SQ", "scale"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "threadCount"]
+- !private ["SQ", "timeIntervalSince"]
+- ["SQ", "uInt8"]
+- !private ["SQ", "url"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "withUnsafeBufferPointer"]
+- !private ["SQ", "withUnsafeBytes"]
+- !private ["SQ", "zeroPoint"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", "MemoryLayout"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "indices"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "newlines"]
+- !private ["s25ExpressibleByArrayLiteralP", "prefix"]
+- !private ["s25ExpressibleByArrayLiteralP", "readOnly"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeBufferPointer"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "components"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "components"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "components"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["Sf", "init"]
+- !private ["SF", ""]
+- !private ["SF", "init"]
+- !private ["SH", "Data"]
+- !private ["SH", "Element"]
+- !private ["SH", "MemoryLayout"]
+- !private ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "bindMemory"]
+- !private ["SH", "centerThumbnail"]
+- !private ["SH", "components"]
+- !private ["SH", "count"]
+- !private ["SH", "data"]
+- !private ["SH", "dataType"]
+- ["SH", "float32"]
+- !private ["SH", "indices"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "map"]
+- !private ["SH", "newlines"]
+- !private ["SH", "path"]
+- !private ["SH", "prefix"]
+- !private ["SH", "quantizationParameters"]
+- !private ["SH", "scale"]
+- !private ["SH", "subscript"]
+- !private ["SH", "threadCount"]
+- !private ["SH", "timeIntervalSince"]
+- ["SH", "uInt8"]
+- !private ["SH", "url"]
+- !private ["SH", "utf8"]
+- !private ["SH", "withUnsafeBufferPointer"]
+- !private ["SH", "withUnsafeBytes"]
+- !private ["SH", "zeroPoint"]
+- ["19ImageClassification9InferenceV", "Float"]
+- ["19ImageClassification9InferenceV", "String"]
+- ["19ImageClassification9InferenceV", "confidence"]
+- ["19ImageClassification9InferenceV", "init"]
+- ["19ImageClassification9InferenceV", "label"]
+- !private ["Si", "init"]
+- !private ["14TensorFlowLite11InterpreterC", "allocateTensors"]
+- !private ["14TensorFlowLite11InterpreterC", "copy"]
+- !private ["14TensorFlowLite11InterpreterC", "init"]
+- !private ["14TensorFlowLite11InterpreterC", "input"]
+- !private ["14TensorFlowLite11InterpreterC", "invoke"]
+- !private ["14TensorFlowLite11InterpreterC", "output"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "components"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "stride"]
+- !private ["s10MirrorPathP", "components"]
+- !private ["s10MirrorPathP", "init"]
+- ["19ImageClassification9MobileNetO", "FileInfo"]
+- ["19ImageClassification9MobileNetO", "labelsInfo"]
+- ["19ImageClassification9MobileNetO", "modelInfo"]
+- !private ["19ImageClassification16ModelDataHandlerC", "Array"]
+- ["19ImageClassification16ModelDataHandlerC", "Bool"]
+- !private ["19ImageClassification16ModelDataHandlerC", "Bundle"]
+- !private ["19ImageClassification16ModelDataHandlerC", "CGSize"]
+- ["19ImageClassification16ModelDataHandlerC", "CVPixelBuffer"]
+- !private ["19ImageClassification16ModelDataHandlerC", "CVPixelBufferGetBaseAddress"]
+- !private ["19ImageClassification16ModelDataHandlerC", "CVPixelBufferGetBytesPerRow"]
+- !private ["19ImageClassification16ModelDataHandlerC", "CVPixelBufferGetHeight"]
+- !private ["19ImageClassification16ModelDataHandlerC", "CVPixelBufferGetPixelFormatType"]
+- !private ["19ImageClassification16ModelDataHandlerC", "CVPixelBufferGetWidth"]
+- !private ["19ImageClassification16ModelDataHandlerC", "CVPixelBufferLockBaseAddress"]
+- !private ["19ImageClassification16ModelDataHandlerC", "CVPixelBufferUnlockBaseAddress"]
+- ["19ImageClassification16ModelDataHandlerC", "Data"]
+- !private ["19ImageClassification16ModelDataHandlerC", "Date"]
+- ["19ImageClassification16ModelDataHandlerC", "FileInfo"]
+- ["19ImageClassification16ModelDataHandlerC", "Float"]
+- !private ["19ImageClassification16ModelDataHandlerC", "Float32"]
+- ["19ImageClassification16ModelDataHandlerC", "Inference"]
+- ["19ImageClassification16ModelDataHandlerC", "Int"]
+- ["19ImageClassification16ModelDataHandlerC", "Interpreter"]
+- !private ["19ImageClassification16ModelDataHandlerC", "InterpreterOptions"]
+- ["19ImageClassification16ModelDataHandlerC", "Result"]
+- ["19ImageClassification16ModelDataHandlerC", "String"]
+- !private ["19ImageClassification16ModelDataHandlerC", "Tensor"]
+- !private ["19ImageClassification16ModelDataHandlerC", "TimeInterval"]
+- !private ["19ImageClassification16ModelDataHandlerC", "UInt32"]
+- !private ["19ImageClassification16ModelDataHandlerC", "UInt8"]
+- !private ["19ImageClassification16ModelDataHandlerC", "alphaComponent"]
+- !private ["19ImageClassification16ModelDataHandlerC", "assert"]
+- ["19ImageClassification16ModelDataHandlerC", "batchSize"]
+- ["19ImageClassification16ModelDataHandlerC", "deinit"]
+- !private ["19ImageClassification16ModelDataHandlerC", "fatalError"]
+- !private ["19ImageClassification16ModelDataHandlerC", "free"]
+- !private ["19ImageClassification16ModelDataHandlerC", "getTopN"]
+- ["19ImageClassification16ModelDataHandlerC", "init"]
+- ["19ImageClassification16ModelDataHandlerC", "inputChannels"]
+- ["19ImageClassification16ModelDataHandlerC", "inputHeight"]
+- ["19ImageClassification16ModelDataHandlerC", "inputWidth"]
+- !private ["19ImageClassification16ModelDataHandlerC", "interpreter"]
+- !private ["19ImageClassification16ModelDataHandlerC", "kCVPixelFormatType_32ARGB"]
+- !private ["19ImageClassification16ModelDataHandlerC", "kCVPixelFormatType_32BGRA"]
+- !private ["19ImageClassification16ModelDataHandlerC", "kCVPixelFormatType_32RGBA"]
+- !private ["19ImageClassification16ModelDataHandlerC", "kvImageNoFlags"]
+- !private ["19ImageClassification16ModelDataHandlerC", "labels"]
+- !private ["19ImageClassification16ModelDataHandlerC", "loadLabels"]
+- !private ["19ImageClassification16ModelDataHandlerC", "malloc"]
+- !private ["19ImageClassification16ModelDataHandlerC", "print"]
+- ["19ImageClassification16ModelDataHandlerC", "resultCount"]
+- !private ["19ImageClassification16ModelDataHandlerC", "rgbDataFromBuffer"]
+- ["19ImageClassification16ModelDataHandlerC", "runModel"]
+- ["19ImageClassification16ModelDataHandlerC", "threadCount"]
+- ["19ImageClassification16ModelDataHandlerC", "threadCountLimit"]
+- !private ["19ImageClassification16ModelDataHandlerC", "vImageConvert_ARGB8888toRGB888"]
+- !private ["19ImageClassification16ModelDataHandlerC", "vImageConvert_BGRA8888toRGB888"]
+- !private ["19ImageClassification16ModelDataHandlerC", "vImageConvert_RGBA8888toRGB888"]
+- !private ["19ImageClassification16ModelDataHandlerC", "vImagePixelCount"]
+- !private ["19ImageClassification16ModelDataHandlerC", "vImage_Buffer"]
+- !private ["19ImageClassification16ModelDataHandlerC", "zip"]
+- !private ["SM", "Data"]
+- !private ["SM", "Element"]
+- !private ["SM", "MemoryLayout"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "indices"]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["SM", "prefix"]
+- !private ["SM", "subscript"]
+- !private ["SM", "withUnsafeBufferPointer"]
+- !private ["SM", "withUnsafeBytes"]
+- !private ["10Foundation19MutableDataProtocolP", "Data"]
+- !private ["10Foundation19MutableDataProtocolP", "Element"]
+- !private ["10Foundation19MutableDataProtocolP", "MemoryLayout"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "indices"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "prefix"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "withUnsafeBufferPointer"]
+- !private ["10Foundation19MutableDataProtocolP", "withUnsafeBytes"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "components"]
+- !private ["So9NSCopyingP", "components"]
+- !private ["So21NSItemProviderReadingP", "components"]
+- !private ["So21NSItemProviderWritingP", "components"]
+- !private ["So16NSMutableCopyingP", "components"]
+- !private ["So8NSObjectC", "URLForAuxiliaryExecutable"]
+- !private ["So8NSObjectC", "URLForResource"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "components"]
+- !private ["So8NSObjectC", "componentsSeparatedByCharactersInSet"]
+- !private ["So8NSObjectC", "componentsSeparatedByString"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "pathForAuxiliaryExecutable"]
+- !private ["So8NSObjectC", "pathForResource"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So8NSObjectP", "URLForAuxiliaryExecutable"]
+- !private ["So8NSObjectP", "URLForResource"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "components"]
+- !private ["So8NSObjectP", "componentsSeparatedByCharactersInSet"]
+- !private ["So8NSObjectP", "componentsSeparatedByString"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "path"]
+- !private ["So8NSObjectP", "pathForAuxiliaryExecutable"]
+- !private ["So8NSObjectP", "pathForResource"]
+- !private ["So8NSObjectP", "url"]
+- !private ["So14NSSecureCodingP", "components"]
+- !private ["So8NSStringC", "components"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "readOnly"]
+- !private ["14TensorFlowLite11InterpreterC7OptionsV", "init"]
+- !private ["14TensorFlowLite11InterpreterC7OptionsV", "threadCount"]
+- !private ["14TensorFlowLite22QuantizationParametersV", "scale"]
+- !private ["14TensorFlowLite22QuantizationParametersV", "zeroPoint"]
+- !private ["Sk", "Data"]
+- !private ["Sk", "Element"]
+- !private ["Sk", "MemoryLayout"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "bindMemory"]
+- !private ["Sk", "count"]
+- !private ["Sk", "distance"]
+- !private ["Sk", "index"]
+- !private ["Sk", "indices"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sk", "prefix"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "withUnsafeBufferPointer"]
+- !private ["Sk", "withUnsafeBytes"]
+- !private ["Sm", "Data"]
+- !private ["Sm", "Element"]
+- !private ["Sm", "MemoryLayout"]
+- !private ["Sm", ""]
+- !private ["Sm", "_customRemoveLast"]
+- !private ["Sm", "append"]
+- !private ["Sm", "components"]
+- !private ["Sm", "count"]
+- !private ["Sm", "indices"]
+- !private ["Sm", "init"]
+- !private ["Sm", "insert"]
+- !private ["Sm", "map"]
+- !private ["Sm", "prefix"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "removeFirst"]
+- !private ["Sm", "removeSubrange"]
+- !private ["Sm", "replaceSubrange"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "withUnsafeBufferPointer"]
+- !private ["Sm", "withUnsafeBytes"]
+- !private ["SY", ""]
+- !private ["SY", "readOnly"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "Data"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "newlines"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince"]
+- !private ["10Foundation20ReferenceConvertibleP", "withUnsafeBytes"]
+- ["19ImageClassification6ResultV", "Double"]
+- ["19ImageClassification6ResultV", "Inference"]
+- ["19ImageClassification6ResultV", "inferenceTime"]
+- ["19ImageClassification6ResultV", "inferences"]
+- ["19ImageClassification6ResultV", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Data"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", "MemoryLayout"]
+- !private ["ST", ""]
+- !private ["ST", "_copyContents"]
+- !private ["ST", "_copyToContiguousArray"]
+- !private ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "append"]
+- !private ["ST", "bindMemory"]
+- !private ["ST", "components"]
+- !private ["ST", "count"]
+- !private ["ST", "indices"]
+- !private ["ST", "init"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "map"]
+- !private ["ST", "prefix"]
+- !private ["ST", "sorted"]
+- !private ["ST", "subscript"]
+- !private ["ST", "underestimatedCount"]
+- !private ["ST", "withContiguousStorageIfAvailable"]
+- !private ["ST", "withUnsafeBufferPointer"]
+- !private ["ST", "withUnsafeBytes"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "newlines"]
+- !private ["s10SetAlgebraP", "readOnly"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "_step"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "bindMemory"]
+- !private ["Sx", "distance"]
+- !private ["Sx", "init"]
+- !private ["SS", "components"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "components"]
+- !private ["Sy", "init"]
+- !private ["14TensorFlowLite0A0V", "data"]
+- !private ["14TensorFlowLite0A0V", "dataType"]
+- !private ["14TensorFlowLite0A0V", "quantizationParameters"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "components"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "components"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["Su", "init"]
+- !private ["s6UInt32V", "init"]
+- !private ["SP", "bindMemory"]
+- !private ["SW", "bindMemory"]
+- !private ["SU", "init"]
+- !private ["s12Zip2SequenceV", "sorted"]
+- !private ["s14_ArrayProtocolP", "Element"]
+- !private ["s14_ArrayProtocolP", "MemoryLayout"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "indices"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "prefix"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "withUnsafeBufferPointer"]
+- !private ["14CoreFoundation9_CFObjectP", "centerThumbnail"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "bindMemory"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "components"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince"]
+- !private ["s24_DestructorSafeContainerP", "Element"]
+- !private ["s24_DestructorSafeContainerP", "MemoryLayout"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "indices"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "prefix"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeBufferPointer"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "components"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "components"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "Element"]
+- !private ["s19_HasContiguousBytesP", "MemoryLayout"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "bindMemory"]
+- !private ["s19_HasContiguousBytesP", "components"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "indices"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "prefix"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "withUnsafeBufferPointer"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Element"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "MemoryLayout"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "components"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "indices"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "prefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withUnsafeBufferPointer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "components"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "path"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "Data"]
+- !private ["s21_ObjectiveCBridgeableP", "Element"]
+- !private ["s21_ObjectiveCBridgeableP", "MemoryLayout"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "components"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "indices"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "newlines"]
+- !private ["s21_ObjectiveCBridgeableP", "prefix"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeBufferPointer"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeBytes"]
+- !private ["s8_PointerP", "bindMemory"]
+- !private ["10Accelerate34vDSP_FloatingPointBiquadFilterableP", "init"]
+- !private ["10Accelerate29vDSP_FloatingPointConvertableP", "init"]
+- !private ["10Accelerate46vDSP_FloatingPointDiscreteFourierTransformableP", "init"]
+- !private ["10Accelerate29vDSP_FloatingPointGeneratableP", "init"]
+- !private ["10Accelerate23vDSP_IntegerConvertableP", "init"]
+- !private ["So13vImage_BufferV", "data"]
+- !private ["So13vImage_BufferV", "init"]
+- !private ["So13vImage_BufferV", "rowBytes"]
+depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
+- !private "s18AdditiveArithmeticP"
+- "Sa"
+- !private "s10ArraySliceV"
+- !private "10Accelerate10BNNSScalarP"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "So8NSBundleC"
+- !private "So6CGSizeV"
+- !private "9CoreMedia26CMAttachmentBearerProtocolP"
+- !private "So11CVBufferRefa"
+- !private "So22CVPixelBufferLockFlagsV"
+- !private "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- "14TensorFlowLite0A0V8DataTypeO"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "SF"
+- "SH"
+- "19ImageClassification9InferenceV"
+- !private "Si"
+- !private "14TensorFlowLite11InterpreterC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- "19ImageClassification9MobileNetO"
+- "19ImageClassification16ModelDataHandlerC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "14TensorFlowLite11InterpreterC7OptionsV"
+- !private "14TensorFlowLite22QuantizationParametersV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "19ImageClassification6ResultV"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "14TensorFlowLite0A0V"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So18UIFocusEnvironmentP"
+- !private "Su"
+- !private "s6UInt32V"
+- !private "SP"
+- !private "SW"
+- !private "SU"
+- !private "s12Zip2SequenceV"
+- !private "s14_ArrayProtocolP"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "10Accelerate34vDSP_FloatingPointBiquadFilterableP"
+- !private "10Accelerate29vDSP_FloatingPointConvertableP"
+- !private "10Accelerate46vDSP_FloatingPointDiscreteFourierTransformableP"
+- !private "10Accelerate29vDSP_FloatingPointGeneratableP"
+- !private "10Accelerate23vDSP_IntegerConvertableP"
+- !private "So13vImage_BufferV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/build/Debug-iphonesimulator/TensorFlowLiteSwift/TensorFlowLite.framework/Modules/TensorFlowLite.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/TensorFlowLiteC.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/build/Debug-iphonesimulator/TensorFlowLiteSwift/TensorFlowLite.framework/Headers/TensorFlowLiteSwift-umbrella.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/xnnpack_delegate.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/c_api.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Headers/common.h"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/build/Debug-iphonesimulator/TensorFlowLiteSwift/TensorFlowLite.framework/Headers/TensorFlowLite-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteC/Frameworks/TensorFlowLiteC.framework/Modules/module.modulemap"
+- "/Users/nguyenxuannam/Documents/image_classification/ios/build/Debug-iphonesimulator/TensorFlowLiteSwift/TensorFlowLite.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8b66732aefbb01e1d8d717314c3438b6"

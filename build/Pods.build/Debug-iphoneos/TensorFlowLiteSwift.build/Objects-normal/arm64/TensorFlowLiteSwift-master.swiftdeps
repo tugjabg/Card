@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "6999a46c6562d5fa09540a78c6026a85"
+build_time: [1621326093, 467652000]
+inputs:
+  "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteSwift/tensorflow/lite/experimental/swift/Sources/Delegate.swift": [1620102452, 355136574]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteSwift/tensorflow/lite/experimental/swift/Sources/Interpreter.swift": [1620102452, 355374074]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteSwift/tensorflow/lite/experimental/swift/Sources/InterpreterError.swift": [1620102452, 355213574]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteSwift/tensorflow/lite/experimental/swift/Sources/Model.swift": [1620102452, 354895325]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteSwift/tensorflow/lite/experimental/swift/Sources/QuantizationParameters.swift": [1620102452, 354810033]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteSwift/tensorflow/lite/experimental/swift/Sources/Tensor.swift": [1620102452, 354977283]
+  "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/TensorFlowLiteSwift/tensorflow/lite/experimental/swift/Sources/TensorFlowLite.swift": [1620102452, 355059366]

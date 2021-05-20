@@ -1,0 +1,10 @@
+framework module SwiftySound {
+  umbrella header "SwiftySound-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftySound.__Swift {
+    exclude header "SwiftySound-Swift.h"
+}

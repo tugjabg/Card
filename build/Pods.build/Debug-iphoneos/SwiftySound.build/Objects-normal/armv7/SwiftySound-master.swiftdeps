@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "67eae6b567acbe3f79c3db4bbffcd5f4"
+build_time: [1621326088, 833497000]
+inputs:
+  "/Users/nguyenxuannam/Documents/image_classification/ios/Pods/SwiftySound/Sources/Sound.swift": [1621244546, 455295376]
